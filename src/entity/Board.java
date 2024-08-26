@@ -6,7 +6,6 @@ import java.util.List;
 public class Board {
     private int size;
     List<List<Character>>board=new ArrayList<>();
-    List<Player>players;
 
     public Board(int size, List<List<Character>> board) {
         this.size = size;
@@ -29,11 +28,4 @@ public class Board {
         this.board = board;
     }
 
-    public List<Player> getPlayers() {
-        return players;
-    }
-
-    public void setPlayers(List<Player> players) {
-        this.players = players;
-    }
 }
