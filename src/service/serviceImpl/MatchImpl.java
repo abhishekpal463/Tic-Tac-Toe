@@ -62,7 +62,7 @@ public class MatchImpl implements Game {
                 return true;
             }
 
-            // Check rows win
+            // Check col win
             for (int j = 0; j < size; j++) {
                 if (board.get(j).get(i) != symbol) {
                     colWil = false;
